@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Serif+Oriya:wght@400..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
 }
 
 body {
     background-color: #640D5F;
-
-    overflow: hidden;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -65,6 +66,7 @@ body {
 
 .quiz_app h1 span {
     color: green;
+    text-transform: capitalize;
 }
 
 .quiz_section {
@@ -127,37 +129,37 @@ body {
 }
 
 
-
 @media (max-width:431px) {
-    body{
-        height: 100vh;
-        width: 100vw;
-        overflow:scroll;
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
         display: flex;
-        align-items:center;
+        align-items: center;
         justify-content: center;
     }
+
     .name_popup {
-       
+
         width: 80%;
         max-width: 600px;
         padding: 5px;
         border-radius: 10px;
-      margin: 20px 0px;
+        margin: 20px 0px;
     }
-    .name_popup input[type="text"]{
+
+    .name_popup input[type="text"] {
         font-size: 18px;
         width: 70%;
         padding: 5px 10px;
         margin: 0px 0px;
         border-radius: 10px;
     }
-    .name_popup button{
+
+    .name_popup button {
         background-color: #059212;
         color: white;
         padding: 9px 10px;
-        border: 0;
-        outline: 0;
         border-radius: 10px;
     }
 }
