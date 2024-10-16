@@ -126,13 +126,8 @@ body {
     color: #921A40;
 }
 
-@media (min-width:500px) {
-    body {
-        height: 100vh;
-        width: 100vw;
-    }
 
-}
+
 @media (max-width:431px) {
     body{
         height: 100vh;
